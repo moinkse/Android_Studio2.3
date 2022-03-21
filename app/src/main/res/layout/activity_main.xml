@@ -11,10 +11,11 @@
         android:id="@+id/textView"
         style="@style/NameStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="405dp"
         android:layout_margin="@dimen/layout_margin"
         android:text="@string/name"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
     <ImageView
         android:id="@+id/star_image"
